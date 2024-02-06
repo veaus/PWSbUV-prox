@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "colors": "^1.4.0",
+    "fetch-headers": "^3.0.1",
+    "mime": "^4.0.1",
+    "minimist": "^1.2.8",
+    "node-static": "^0.7.11",
+    "optimist": "^0.6.1",
+    "word-wrap": "^1.2.5"
+  }
+}

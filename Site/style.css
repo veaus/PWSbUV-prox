@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@keyframes startAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background: rgb(4, 13, 18);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    animation: startAnimation ease-in 2s;
+}
+
+.title {
+    font-size: 70px;
+    margin-top: 13%;
+    text-align: center;
+    color: rgb(255, 246, 224, 85);
+}
+
+form input {
+    background: none;
+    padding: 0px 20px;
+    height: 35px;
+    color: var(--text-color);
+    outline: none;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: #FFF;
+    border: 4px solid  rgb(92, 131, 116, 0.4);
+    transition-duration: 1s;
+}
+
+form input:focus {
+    border-color: rgba(255, 255, 255, 0.712);
+}
